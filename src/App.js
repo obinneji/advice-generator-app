@@ -4,7 +4,7 @@ import './styles.css'
 function App() {
   const [advice, setAdvice] = useState("")
   const [adviceId,setAdviceId] = useState("")
-  const [click,setClick]= useState(false)
+  const [clickAdvise, setClickAdvice]= useState(false)
   
 
   useEffect(()=>{
@@ -13,10 +13,10 @@ function App() {
   .then(data => {
     setAdviceId(data.slip.id)
     setAdvice(data.slip.advice)});
-  },[click])
+  },[clickAdvise])
 
   function getNewAdvice(){
-    setClick((prevValue)=>{
+    setClickAdvice((prevValue)=>{
       return !prevValue
     })
   }

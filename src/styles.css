@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
+    
   
 }
 body{
@@ -66,6 +67,22 @@ aside:hover{
     width: 15px;
     color: hsl(217, 19%, 24%);
 }
-@media (max-width: 600px) {
-  
+/*@media (max-width: 600px) {
+  main{
+    width: 250px;
+    justify-content: space-evenly;
+  }
+
+  .advice-word{
+    margin: 0;
+    padding: 0;
+  }
+  section{
+    align-self: center;
+    
+  }
+  .divider{
+    width: 80%;
+    margin-top: 100px;
 }
+}*/

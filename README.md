@@ -14,9 +14,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/desktop-design.jpg)
+![](./adviceScreenshot.png)
 
 ### Links
 
@@ -54,7 +51,9 @@ How to use the useEffect hook and fetch Api call.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+-The mobile view is still under development.
+
+- The dice image also need to spin.
 
 ### Useful resources
 
