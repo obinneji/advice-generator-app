@@ -16,8 +16,8 @@ body{
 }
 
 main{
-    width: 50vw;
-    height: 70vh;
+    width: 500px;
+    height: 300px;
     background: hsl(217, 19%, 24%);
     border-radius: 10px;
     text-align: center;
