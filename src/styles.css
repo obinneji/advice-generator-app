@@ -16,8 +16,8 @@ body{
 }
 
 main{
-    width: 400px;
-    height: 250px;
+    width: 50vw;
+    height: 70vh;
     background: hsl(217, 19%, 24%);
     border-radius: 10px;
     text-align: center;
@@ -43,7 +43,7 @@ section{
 }
 .divider{
     width: 80%;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 aside{
@@ -65,4 +65,7 @@ aside:hover{
 .dice-image{
     width: 15px;
     color: hsl(217, 19%, 24%);
+}
+@media (max-width: 600px) {
+  
 }

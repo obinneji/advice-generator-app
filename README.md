@@ -30,13 +30,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![](./images/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/obinneji/advice-generator-app)
+- [Live Site URL](https://advice-generator-app-ruddy.vercel.app/)
 
 ## My process
 
@@ -53,18 +52,13 @@ Users should be able to:
 
 How to use the useEffect hook and fetch Api call.
 
-
-
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-
 ### Useful resources
 
 - [Example resource 1](https://cssgenerator.org/box-shadow-css-generator.html) - This helped me to generate box shadow. I really liked this pattern and will use it going forward.
-
-
 
 ## Author
 
@@ -73,4 +67,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Twitter - [@francisobinneji](https://www.twitter.com/francisobinneji)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
