@@ -24,7 +24,7 @@ function App() {
     <div>
       <main>
         <p className='advice-id'>Advice {adviceId}</p>
-        <section><h2 className='advice-word'>" {advice} "</h2></section>
+        <section><h2 className='advice-word'>&ldquo {advice} &rdquo</h2></section>
         <img src='../images/pattern-divider-desktop.svg' className='divider' alt='dividing line'/>
       </main>
       <aside onClick={getNewAdvice}><img src="../images/icon-dice.svg" className='dice-image' alt='dice'/></aside>
