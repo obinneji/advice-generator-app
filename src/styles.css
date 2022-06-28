@@ -94,7 +94,7 @@ aside:hover{
   }
   .divider{
     position: relative;
-    top: 110px;
+/*     top: 110px; */
     width: 80%;
 }
 }
