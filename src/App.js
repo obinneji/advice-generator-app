@@ -8,7 +8,7 @@ function App() {
   
 
   useEffect(()=>{
-    fetch('https://api.adviceslip.com/advice')
+      fetch('https://api.adviceslip.com/advice')
   .then(response => response.json())
   .then(data => {
     setAdviceId(data.slip.id)
@@ -20,6 +20,9 @@ function App() {
       return !prevValue
     })
   }
+  const styles = {
+    animation: 'rotation 2s 1s linear'
+  }
   return (
     <div>
       <main>
@@ -27,7 +30,7 @@ function App() {
         <section><h2 className='advice-word'>&ldquo;{advice}&rdquo;</h2></section>
         <img src='../images/pattern-divider-desktop.svg' className='divider' alt='dividing line'/>
       </main>
-      <aside onClick={getNewAdvice}><img src="../images/icon-dice.svg" className='dice-image' alt='dice'/></aside>
+      <aside onClick={getNewAdvice}><img src="../images/icon-dice.svg" className='dice-image' alt='dice' style={clickAdvise ? styles : null}/></aside>
     </div>
   );
 }
