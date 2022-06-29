@@ -26,7 +26,7 @@ function App() {
   return (
     <div>
       <main>
-        <p className='advice-id'>Advice {adviceId}</p>
+        <p className='advice-id'>Advice #{adviceId}</p>
         <section><h2 className='advice-word'>&ldquo;{advice}&rdquo;</h2></section>
         <img src='../images/pattern-divider-desktop.svg' className='divider' alt='dividing line'/>
       </main>
